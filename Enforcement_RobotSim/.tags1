@@ -1,0 +1,56 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+MAX	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^#define MAX(/;"	macro	line:14	file:
+MIN	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^#define MIN(/;"	macro	line:15	file:
+ActualUnitParams	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^unit_model_params_t ActualUnitParams;   \/* Model of a single unit *\/$/;"	variable	line:55
+ActualUnitParamSets	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^unit_model_params_t *ActualUnitParamSets;$/;"	variable	line:56
+ActualSitParams	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^sit_parameters_t ActualSitParams;       \/* Situation parameters e.g. number of units *\/$/;"	variable	line:57
+ActualFlockingParams	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^flocking_model_params_t ActualFlockingParams;   \/* Flocking model parameters *\/$/;"	variable	line:58
+ActualFlockingParamSets	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^flocking_model_params_t *ActualFlockingParamSets;$/;"	variable	line:59
+STORED_TIME	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^#define STORED_TIME /;"	macro	line:63	file:
+ActualPhase	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^phase_t ActualPhase;$/;"	variable	line:66
+PhaseData	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^phase_t *PhaseData;$/;"	variable	line:69
+InnerStatesTimeLine	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^phase_t *InnerStatesTimeLine;$/;"	variable	line:70
+GPSPhase	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^phase_t GPSPhase;$/;"	variable	line:73
+GPSDelayedPhase	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^phase_t GPSDelayedPhase;$/;"	variable	line:74
+WindVelocityVector	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^static double WindVelocityVector[2];$/;"	variable	line:77	file:
+HighRes	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^static bool HighRes = true;$/;"	variable	line:80	file:
+EYE_Z_LIMIT	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^#define EYE_Z_LIMIT /;"	macro	line:85	file:
+DISTANCE_FROM_CENTER_LIMIT	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^#define DISTANCE_FROM_CENTER_LIMIT /;"	macro	line:86	file:
+DISTANCE_FROM_CENTER_XY_LIMIT	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^#define DISTANCE_FROM_CENTER_XY_LIMIT /;"	macro	line:87	file:
+MenuWindowID	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^int MenuWindowID, VizWindowID;  \/* IDs of windows *\/$/;"	variable	line:89
+VizWindowID	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^int MenuWindowID, VizWindowID;  \/* IDs of windows *\/$/;"	variable	line:89
+ActualColorConfig	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^color_config_t ActualColorConfig;       \/* contains color setups *\/$/;"	variable	line:90
+ActualVizParams	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^vizmode_params_t ActualVizParams;       \/* contains mode setup (e.g. CoM-following toggle, etc.) *\/$/;"	variable	line:91
+ActualStatUtils	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^stat_utils_t ActualStatUtils;   \/* for statistical calculations... *\/$/;"	variable	line:92
+ActualSaveModes	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^output_modes_t ActualSaveModes;$/;"	variable	line:93
+ActualStatistics	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^statistics_t ActualStatistics;  \/* contains averages and standard deviations of basic "order"parameters *\/$/;"	variable	line:94
+Now	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^int Now = 0;                    \/\/ Actual visualized timestep (resets after "Length" seconds)$/;"	variable	line:97
+TimeStep	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^int TimeStep = 0;               \/\/ Actual visualized timestep (resets after F12 is pressed)$/;"	variable	line:98
+TimeBeforeFlock	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^double TimeBeforeFlock = 0.0;   \/\/ Waiting time (before a simulated measurement)$/;"	variable	line:99
+ConditionsReset	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^bool ConditionsReset[2];$/;"	variable	line:100
+TrajViz	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^bool TrajViz = false;$/;"	variable	line:101
+AgentsInDanger	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^bool *AgentsInDanger;$/;"	variable	line:102
+Collisions	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^int Collisions;$/;"	variable	line:103
+NumberOfModelSpecificColors	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^int NumberOfModelSpecificColors;$/;"	variable	line:105
+ModelSpecificColors	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^model_specific_color_t ModelSpecificColors[MAX_NUMBER_OF_COLORS];$/;"	variable	line:106
+f_OutPhase	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^FILE *f_OutPhase, *f_OutInnerStates;$/;"	variable	line:109
+f_OutInnerStates	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^FILE *f_OutPhase, *f_OutInnerStates;$/;"	variable	line:109
+PNGOutVid	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^bool PNGOutVid = false;$/;"	variable	line:110
+Initialize	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^void Initialize() {$/;"	function	line:115
+VizSpeedUpName	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^char VizSpeedUpName[19] = "Visualization Speed";$/;"	variable	line:201
+DisplayMenu	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^void DisplayMenu() {$/;"	function	line:202
+DrawCopters	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^void DrawCopters(phase_t * Phase, phase_t * GPSPhase, const int TimeStep) {$/;"	function	line:243	signature:(phase_t * Phase, phase_t * GPSPhase, const int TimeStep)
+UpdateMenu	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^void UpdateMenu() {$/;"	function	line:602
+DisplayTrajs	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^void DisplayTrajs() {$/;"	function	line:613
+UpdatePositionsToDisplay	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^void UpdatePositionsToDisplay() {$/;"	function	line:773
+HandleKeyBoard	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^void HandleKeyBoard(unsigned char key, int x, int y) {$/;"	function	line:926	signature:(unsigned char key, int x, int y)
+HandleKeyBoardSpecial	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^void HandleKeyBoardSpecial(int key, int x, int y) {$/;"	function	line:1089	signature:(int key, int x, int y)
+HandleMouse	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^void HandleMouse(int button, int state, int x, int y) {$/;"	function	line:1370	signature:(int button, int state, int x, int y)
+HandleMouseMotion	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^void HandleMouseMotion(int x, int y) {$/;"	function	line:1456	signature:(int x, int y)
+print_help	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^void print_help(void) {$/;"	function	line:1461	signature:(void)
+main	/home/huc/VM-Robotsim/robotsim-master/src/robotsim_main.c	/^int main(int argc, char *argv[]) {$/;"	function	line:1478	signature:(int argc, char *argv[])
